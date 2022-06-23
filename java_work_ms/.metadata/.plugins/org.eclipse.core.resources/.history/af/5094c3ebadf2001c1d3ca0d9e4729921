@@ -1,0 +1,12 @@
+
+public class FF {
+	public static void main(String[] args) {
+		
+		boolean a = true;
+		char b = 'A';
+		int c = 4;
+		d = !a
+		
+		System.out.println(a, b, c, d);
+	}
+}
