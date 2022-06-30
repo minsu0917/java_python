@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            color: red;
+            background-color: gray;
+        }
+
+        h1~h3 {
+            color: green;
+        }
+
+        h1~h2 {
+            color: yellow
+        }
+
+        p:hover {
+            font-size: 2rem;
+        }
+
+        p:active {
+            font-size: 3rem;
+        }
+        input:enabled{background-color: red;}
+        input:disabled{background-color: blue;}
+        input:focus{background-color: yellow;}
+    </style>
+</head>
+
+<body>
+    <div>
+        <input type="text" disabled>
+        <input type="text" enabled>
+        <h1>head</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptatibus nemo porro repellendus ex vero
+            perferendis dolores, vitae rerum quisquam quibusdam quidem sit soluta, doloremque, nihil sequi odio
+            veritatis natus.</p>
+        <h2>head</h2>
+        <h3>head</h3>
+    </div>
+</body>
+
+</html>
