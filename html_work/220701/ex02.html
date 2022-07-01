@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*자식태그에서 float속성이 있으면 부모태그에서 overflow:hidden을 해줘야 한다.*/
+        ul{
+            /*overflow: hidden;*/
+        }
+        li{
+            list-style: none;
+            float: left;
+            padding: 10px;
+        }
+        li:first-child{border-radius: 10px 0 0 10px;}
+        li:last-child{border-radius: 0 10px 10px 0;}
+        li:nth-child(2n){ background-color: rgb(183, 222, 255);}
+        li:nth-child(2n+1){ background-color: rgb(235, 199, 255);}
+    </style>
+</head>
+<body>
+    <ul>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+        <li>fourth</li>
+        <li>fifth</li>
+        <li>sixth</li>
+        <li>seventh</li>
+    </ul>
+   
+</body>
+</html>

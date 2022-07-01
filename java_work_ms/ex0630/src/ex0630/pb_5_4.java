@@ -27,14 +27,14 @@ public class pb_5_4 {
 		} while(i>0);
 		System.out.println();
 		
+		//3번
 		i=0; sum=0;
 		while(i<1000) {
 			i++;
-			if((i%2==0) && (i%7==0))
+			if((i%2==0) && (i%7==0)) {
 				sum += i;
+				System.out.println("num: "+i+" sum: "+sum);
+			}
 		}
-		System.out.println(sum);
 	}
-	
-	
 }
