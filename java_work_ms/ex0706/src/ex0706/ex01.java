@@ -3,6 +3,12 @@ package ex0706;
 class Triangle {
 	int width;
 	int height;
+	public Triangle() {}
+	public Triangle(int width, int height) {
+		super();
+		this.width = width;
+		this.height = height;
+	}
 
 	public void setWidth(int width) {
 		this.width = width;
@@ -25,5 +31,9 @@ public class ex01 {
 		t1.setHeight(50);
 		t1.setWidth(50);
 		t1.printarea();
+		
+		Triangle t2 = new Triangle(30,50);
+		t2.printarea();
+		
 	}
 }
